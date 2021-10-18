@@ -1,0 +1,763 @@
+@charset "utf-8";
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Roboto', sans-serif;
+}
+li {
+  list-style:none;
+}
+a {
+  text-decoration:none;
+  color:#000;
+  font-family:'Roboto', sans-serif;
+}
+
+/* media qurey */
+@media (min-width:500px) and (max-width:1024px) {
+  #Wrap {
+    width:100%;
+    height:100%;
+    background:#000;
+  }
+/* header section*/
+  header {
+    width:100%;
+    height:4.188em;
+    background-color:#000;
+    color:#333;
+    padding:1.094em 0;
+    position:relative;
+    top:0;
+    float:left;
+    z-index:2;
+}
+.logo {
+  width:35%;
+  margin-top:-0.938em;
+  float:left;
+}
+.logo img {
+  width:2.188em;
+  height:2.188em;
+  margin-left:10%;
+  margin-top:0.313em;
+  float:left;
+}
+.logo img:last-child {
+  width:6.250em;
+  height:3.125em;
+}
+.hamburger_btn {
+  float:left;
+  text-align:right;
+  width:65%;
+}
+.hamburger_btn img{
+  margin-right:1.250em;
+  margin-top:-0.625em;
+  width:3.125em;
+  height:3.125em;
+}
+.hamburger_btn img:hover{
+  cursor:pointer;
+}
+.nav {
+  display:none;
+  width:100%;
+  float:left;
+  background-color:#000;
+}
+.nav li {
+  width:100%;
+  line-height:4em;
+  text-align:center;
+}
+.nav li a {
+  font-size:2em;
+  color:#a0a0a0;
+  text-align:center;
+}
+.nav li a:hover {
+  color:#fff;
+}
+/* first_section */
+.first_section {
+  clear:both;
+  width:80%;
+  margin:auto;
+  height:calc(100vh - 102px);
+  overflow:hidden;
+}
+.first_section h2 {
+  display:none;
+}
+.slide {
+  width:300%;
+  height:100%;
+  float:left;
+}
+.intoduce {
+  width:90%;
+  margin:auto;
+  position:absolute;
+  text-align:center;
+  height:4.5em;
+  top:5%;
+  left:50%;
+  transform:translateX(-50%);
+  font-size:4.5em;
+  color:#fff;
+}
+.Written {
+  position:absolute;
+  width:80%;
+  text-align:center;
+  top:50%;
+  left:50%;
+  transform:translateX(-50%);
+  font-size:2.5em;
+  color:#fff;
+}
+.first_slide {
+  width:33.33%;
+  float:left;
+  height:100%;
+  position:relative;
+  top:0;
+}
+.first_slide img {
+  width:80%;
+  height:100%;
+}
+.second_slide {
+  width:33.33%;
+  height:calc(100vh - 102px);
+  float:left;
+  position:relative;
+}
+.second_slide img {
+  width:100%;
+  height:100%;
+}
+.third_slide {
+  width:33.33%;
+  float:left;
+  height:calc(100vh - 102px);
+  position:relative;
+}
+.third_slide img {
+  width:100%;
+  height:100%;
+}
+.slide_btn {
+  width:100%;
+  height:100px;
+  position:relative;
+  opacity:0.8;
+  top:-50%;
+  z-index:2;
+  float:left;
+}
+.pre_btn {
+  width:3.125em;
+  height:3.125em;
+  float:left;
+  background-image:url(../img/pre_Btn.png);
+  opacity:0.8;
+  cursor:pointer;
+  position:relative;
+  left:10%;
+   display:inline-block;
+  background-size:100%;
+  background-repeat:no-repeat;
+}
+.next_btn {
+  width:3.125em;
+  height:3.125em;
+  cursor:pointer;
+  z-index:2;
+  background-image:url(../img/next_Btn.png);
+  display:inline-block;
+  float:left;
+  position:relative;
+  left:80%;
+  background-size:100%;
+  background-repeat:no-repeat;
+}
+
+/* promotion */
+#Promotion {
+  clear:both;
+  width:100%;
+  height:44.375em;
+  padding:8.125em 0 9.063em 0;
+  background-color:#2C2D2E;
+}
+.container {
+  width:70%;
+  height:27.188em;
+  margin:auto;
+}
+.Main_title {
+  width:100%;
+  margin:auto;
+}
+.Main_title h2 {
+  font-size:3.125em;
+  text-align:center;
+  color:#fff;
+}
+.Main_title p {
+  display:none;
+  margin-top:45px;
+  font-size:19px;
+  padding:0 24px;
+  line-height:1.5;
+  text-align:center;
+  color:#ababab;
+}
+.More_btn {
+  display:block;
+  margin:57px auto 0;
+  width:209px;
+  height:69px;
+  background:red;
+  color:#fff;
+  line-height:69px;
+  text-align:center;
+}
+
+/* Car_wheel */
+#Car_wheel {
+  width:100%;
+  height:43.750em;
+}
+.C_container {
+  width:100%;
+  height:50%;
+}
+.picture_box {
+  width:100%;
+  height:100%;
+}
+.picture_box img {
+  width:100%;
+  height:100%;
+}
+.Description_Box {
+  width:100%;
+  height:100%;
+  background:red;
+  line-height:100%;
+}
+.Description_Box p {
+  color:#fff;
+  text-align:center;
+}
+.case {
+  width:100%;
+}
+.head_line {
+  display:block;
+  font-size:5.625em;
+  height:1.5em;
+  line-height:1;
+  padding-top:0.063em;
+}
+.content_explan {
+  display:none;
+  font-size:2em;
+  margin-top:1.250em;
+  padding:0 5%;
+}
+.More_btn_white {
+  display:block;
+  margin:3.750em auto 0;
+  width:13.063em;
+  height:4.313em;
+  font-weight:700;
+  background:white;
+  color:#000;
+  line-height:4.313em;
+  text-align:center;
+}
+.More_btn_white:hover {
+  background-color:#2c2d2e;
+  color:#fff;
+}
+/*Inside_the_vehicle*/
+.Inside_the_vehicle {
+  clear:both;
+  height:43.750em;
+}
+.Description_Box_gray {
+  background-color:#2c2d2e;
+}
+.More_btn_lightgray {
+  display:block;
+  margin:57px auto 0;
+  width:209px;
+  height:69px;
+  font-weight:700;
+  background:#4c4e50;
+  color:#fff;
+  line-height:69px;
+  text-align:center;
+}
+.More_btn_lightgray:hover {
+  background-color:red;
+}
+
+/* advantages section */
+#advantages {
+  width:100%;
+  height:100%;
+}
+#advantages h2 {
+  display:none;
+}
+.head_title {
+  font-size:5.625em;
+  text-align:center;
+  padding-top:2em;
+}
+.head_title span {
+  font-weight:700;
+}
+.head_title p {
+  font-weight:200;
+}
+.contant_box {
+  width:70%;
+  margin:0 auto;
+  padding:7em 0 9.063em 0;
+  height:43.750em;
+}
+.contant {
+  width:100%;
+  float:left;
+  height:9.375em;
+}
+.contant a {
+  font-weight:700;
+  font-size:1.563em;
+}
+.contant p {
+  font-size:1em;
+  padding-top:0.625em;
+}
+.L_left_content {
+  width:70%;
+  text-align:right;
+  height:3.750em;
+  float:left;
+}
+.L_right_content {
+  width:25%;
+  padding-left:2%;
+  text-align:left;
+  height:6.250em;
+  float:left;
+}
+.R_left_content {
+  width:25%;
+  text-align:right;
+  height:3.750em;
+  float:left;
+  padding-right:2%;
+}
+.R_right_content {
+  width:70%;
+  text-align:left;
+  padding-left:3%;
+  height:6.250em;
+  float:left;
+}
+.More_btn_light_gray {
+  clear:both;
+  position:relative;
+  top:3.125em;
+  left:-1em;
+  display:block;
+  margin:0 auto;
+  width:13.063em;
+  height:4.313em;
+  font-weight:700;
+  background:#4c4e50;
+  color:#fff;
+  line-height:4.313em;
+  text-align:center;
+  vertical-align:center;
+}
+.More_btn_light_gray:hover {
+  background-color:red;
+}
+}
+
+@media (min-width:1024px) and (max-width:1920px) {
+ #Wrap {
+  width:100%;
+  height:100%;
+  background:#030303;
+}
+/* header section*/
+header {
+  width:100%;
+  height:67px;
+  background-color:#000;
+  color:#333;
+  padding:17.5px 0;
+  position:relative;
+  top:0;
+  float:left;
+  z-index:2;
+}
+.logo {
+  width:30%;
+  margin-top:-15px;
+  float:left;
+}
+.logo img {
+  width:35px;
+  height:35px;
+  margin-left:50%;
+}
+.logo img:last-child {
+  width:100px;
+  height:50px;
+  padding-top:20px;
+  margin:0 0 0 20px;
+}
+.nav {
+  width:70%;
+  float:left;
+}
+.nav li {
+  width:16.666%;
+  float:left;
+  line-height:32px;
+  text-align:center;
+}
+.nav li a {
+  font-size:16px;
+  color:#a0a0a0;
+  text-align:center;
+}
+.nav li a:hover {
+  color:#fff;
+}
+.hamburger_btn {
+  display:none;
+}
+/* first_section */
+.first_section {
+  clear:both;
+  width:80%;
+  margin:auto;
+  height:calc(100vh - 102px);
+  overflow:hidden;
+}
+.first_section h2 {
+  display:none;
+}
+.slide {
+  width:300%;
+  height:100%;
+  float:left;
+}
+.intoduce {
+  width:40%;
+  position:absolute;
+  top:28%;
+  left:50%;
+  transform:translateX(-50%);
+  font-size:40px;
+  color:#fff;
+}
+.Written {
+  position:absolute;
+  top:42%;
+  left:50%;
+  transform:translateX(-50%);
+  font-size:19px;
+  color:#fff;
+}
+.first_slide {
+  width:33.33%;
+  float:left;
+  height:100%;
+  position:relative;
+  top:0;
+}
+.first_slide img {
+  width:100%;
+  height:100%;
+}
+.second_slide {
+  width:33.33%;
+  height:calc(100vh - 102px);
+  float:left;
+  position:relative;
+}
+.second_slide img {
+  width:100%;
+  height:100%;
+}
+.third_slide {
+  width:33.33%;
+  float:left;
+  height:calc(100vh - 102px);
+  position:relative;
+}
+.third_slide img {
+  width:100%;
+  height:100%;
+}
+.slide_btn {
+  width:100%;
+  height:100px;
+  position:relative;
+  top:-50%;
+  z-index:2;
+  float:left;
+}
+.pre_btn {
+  width:100px;
+  height:100px;
+  float:left;
+  background-image:url(../img/pre_Btn.png);
+  opacity:0.8;
+  cursor:pointer;
+  position:relative;
+  left:10%;
+   display:inline-block;
+  background-size:100%;
+  background-repeat:no-repeat;
+}
+.next_btn {
+  width:100px;
+  height:100px;
+  cursor:pointer;
+  z-index:2;
+  background-image:url(../img/next_Btn.png);
+  display:inline-block;
+  float:left;
+  position:relative;
+  left:80%;
+  background-size:100%;
+  background-repeat:no-repeat;
+}
+
+/* promotion */
+#Promotion {
+  clear:both;
+  width:100%;
+  height:710px;
+  padding:130px 0 145px 0;
+  background-color:#2C2D2E;
+}
+.container {
+  width:1200px;
+  height:435px;
+  margin:auto;
+}
+.Main_title {
+  width:999px;
+  margin:auto;
+}
+.Main_title h2 {
+  font-size:40px;
+  text-align:center;
+  color:#fff;
+}
+.Main_title p {
+  margin-top:45px;
+  font-size:19px;
+  padding:0 24px;
+  line-height:1.5;
+  text-align:center;
+  color:#ababab;
+}
+.More_btn {
+  display:block;
+  margin:57px auto 0;
+  width:209px;
+  height:69px;
+  background:red;
+  color:#fff;
+  line-height:69px;
+  text-align:center;
+}
+
+/* Car_wheel */
+#Car_wheel {
+  width:100%;
+  height:700px;
+}
+.C_container {
+  width:100%;
+  height:100%;
+  /*padding:130px 0 145px;*/
+  float:left;
+}
+.picture_box {
+  width:50%;
+  height:100%;
+  float:left;
+}
+.picture_box img {
+  width:100%;
+  height:100%;
+}
+.Description_Box {
+  width:50%;
+  height:100%;
+  float:left;
+  background:red;
+  line-height:100%;
+}
+.Description_Box p {
+  color:#fff;
+  text-align:center;
+}
+.case {
+  width:100%;
+  padding:0 15px;
+  margin:20% 0;
+}
+.head_line {
+  display:block;
+  font-size:5.900em;
+  line-height:1;
+  height:2em;
+}
+.content_explan {
+  display:block;
+  font-size:16px;
+  margin-top:20px;
+  padding:0 5%;
+}
+.More_btn_white {
+  display:block;
+  margin:57px auto 0;
+  width:209px;
+  height:69px;
+  font-weight:700;
+  background:white;
+  color:#000;
+  line-height:69px;
+  text-align:center;
+}
+.More_btn_white:hover {
+  background-color:#2c2d2e;
+  color:#fff;
+}
+/*Inside_the_vehicle*/
+.Inside_the_vehicle {
+  clear:both;
+  height:700px;
+}
+.Description_Box_gray {
+  background-color:#2c2d2e;
+}
+.More_btn_lightgray {
+  display:block;
+  margin:57px auto 0;
+  width:209px;
+  height:69px;
+  font-weight:700;
+  background:#4c4e50;
+  color:#fff;
+  line-height:69px;
+  text-align:center;
+}
+.More_btn_lightgray:hover {
+  background-color:red;
+}
+
+/* advantages section */
+#advantages {
+  width:100%;
+  height:100%;
+}
+#advantages h2 {
+  display:none;
+}
+.head_title {
+  font-size:90px;
+  text-align:center;
+  padding-top:130px;
+}
+.head_title span {
+  font-weight:700;
+}
+.head_title p {
+  font-weight:200;
+}
+.contant_box {
+  width:1200px;
+  margin:0 auto;
+  padding:130px 0 145px 0;
+  height:699px;
+}
+.contant {
+  width:50%;
+  float:left;
+  height:150px;
+}
+.contant a {
+  font-weight:700;
+  font-size:25px;
+}
+.contant p {
+  font-size:16px;
+  padding-top:10px;
+}
+.L_left_content {
+  width:70%;
+  text-align:right;
+  height:60px;
+  float:left;
+}
+.L_right_content {
+  width:25%;
+  padding-left:2%;
+  text-align:left;
+  height:100px;
+  float:left;
+}
+.R_left_content {
+  width:25%;
+  text-align:right;
+  height:60px;
+  float:left;
+  padding-right:2%;
+}
+.R_right_content {
+  width:70%;
+  text-align:left;
+  height:100px;
+  float:left;
+}
+.More_btn_light_gray {
+  clear:both;
+  position:relative;
+  top:50px;
+  left:-16px;
+  display:block;
+  margin:0 auto;
+  width:209px;
+  height:69px;
+  font-weight:700;
+  background:#4c4e50;
+  color:#fff;
+  line-height:69px;
+  text-align:center;
+  vertical-align:center;
+}
+.More_btn_light_gray:hover {
+  background-color:red;
+}
+}
