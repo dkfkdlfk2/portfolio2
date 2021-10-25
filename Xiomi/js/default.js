@@ -62,7 +62,7 @@ $(window).on('scroll',function(e){
       lateH += -0.4;
       fadeop += 0.001;
       latestWs = ws;
-      $('.fix_box').css({ height:'210vh', width:'100%' ,background:'image/kv-bg.jpg'});
+      $('.fix_box').css({ height:'210vh', width:'100%' ,background:'image_3/kv-bg.jpg'});
       $('.f_content_txt').fadeIn(500);
       $('.f_content_txt').css({display:'block',top:'60px'})
       $('.f_content').css({position:'fixed', top:'60px', left:0, width:'100%',zIndex:9999});
@@ -115,7 +115,7 @@ $(window).on('scroll',function(e){
     $('.displayTxt2').fadeIn(500);
     $('.displayTxt').css({marginLeft:'20%'});
     $('.displayTxt2').css({top:'50%'});
-    $('.displayBox').fadeIn().css({background:'url(image/index-11-img01.png)no-repeat center'});
+    $('.displayBox').fadeIn().css({background:'url(image_2/index-11-img01.png)no-repeat center'});
   }
   if(ws >= $('.graph').offset().top - $(window).height()/2){
     $('.graph1 span').css({width:'250px'})
@@ -176,11 +176,11 @@ $('.camera_f').mouseover(function(){
 var img = [];
    for(var i=1; i<130; i++){
      if(i < 10){   
-            img[i] = 'image/MIUI11_00' + i + '.png';
+            img[i] = 'image_3/MIUI11_00' + i + '.png';
           } else if(i<100) {
-            img[i] = 'image/MIUI11_0' + i + '.png';
+            img[i] = 'image_3/MIUI11_0' + i + '.png';
           } else {
-            img[i] = 'image/MIUI11_' + i + '.png';
+            img[i] = 'image_3/MIUI11_' + i + '.png';
           }
    }
    
