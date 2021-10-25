@@ -69,10 +69,11 @@ header {
 }
 .card h2 {
 	position: absolute;
-	top: 0px;
-	left: 18%;
-	transform: translateX(50%);
-	font-size: 4em;
+	top: 30px;
+	left: 20%;
+	text-align:center;
+	transform: translateX(65%);
+	font-size: 3em;
 	color: rgba(255,255,255,0.05);
 	pointer-events: none;
 }
